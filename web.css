@@ -1,5 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+
+.abvtheFold {
+  background-color: #1F2937;
+  height: 550px;
+  padding-top: 5px;
+
+}
+
 .navContainer {
 
   display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 150px 0 120px;
 
+  color: #F9FAF8;
+
+}
+
+.logo {
+
+  font-size: 24px;
+
+}
+
+.navLinks {
+
+  font-size: 18px;
+  display: flex;
+  width: 400px;
+  column-gap: 40px;
+  color: #E5E7EB;
+
+}
+
+a {
+
+  color: #E5E7EB;
+  text-decoration: none;
 }
