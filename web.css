@@ -45,3 +45,21 @@ a {
   color: #E5E7EB;
   text-decoration: none;
 }
+
+.Hero {
+
+  display: flex;
+  width: 1000px;
+  height: 300px;
+  align-items: center;
+  flex: 1 1 auto;
+
+}
+
+.ctaIntro {
+
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+
+}
